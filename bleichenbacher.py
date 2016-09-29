@@ -14,10 +14,7 @@ e = 3
 f = "ff"
 arbitrary = '00' * 217
 hex_string = "0x0001" + f + "003021300906052b0e03021a05000414" + digest_hex_str + arbitrary
-print hex_string
 decimal_int = int(hex_string, 16)
-print decimal_int
 cuberoot = integer_nthroot(decimal_int, e)[0] + 1
 
-print cuberoot
 print integer_to_base64(cuberoot)
