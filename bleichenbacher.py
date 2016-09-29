@@ -13,7 +13,7 @@ digest_hex_str = digest_hex_str[2:(len(digest_hex_str) - 1)]
 e = 3
 f = "ff"
 arbitrary = '00' * 217
-hex_string = "0001" + f + "3021300906052b0e03021a05000414" + digest_hex_str + arbitrary
+hex_string = "0x0001" + f + "003021300906052b0e03021a05000414" + digest_hex_str + arbitrary
 print hex_string
 decimal_int = int(hex_string, 16)
 print decimal_int
